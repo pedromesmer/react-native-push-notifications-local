@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">ReactNativeTypescript</string>
+    <string name="app_name">Push Notification</string>
+    <string name="default_notification_channel_id">channel-id</string>
 </resources>

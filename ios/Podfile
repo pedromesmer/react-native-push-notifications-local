@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'ReactNativeTypescript' do
+target 'PushNotificationLocal' do
   config = use_native_modules!
 
   use_react_native!(
@@ -12,7 +12,7 @@ target 'ReactNativeTypescript' do
     :hermes_enabled => false
   )
 
-  target 'ReactNativeTypescriptTests' do
+  target 'PushNotificationLocalTests' do
     inherit! :complete
     # Pods for testing
   end
