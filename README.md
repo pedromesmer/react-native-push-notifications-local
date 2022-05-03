@@ -42,6 +42,8 @@ yarn android
 
 O app tem apenas uma tela com dois botões, o primeiro abrirá a notificação na hora e o outro uma notificação em 5s, que podem ser alterados no código. 
 
+![push notification](https://user-images.githubusercontent.com/59974293/166599114-331811c9-ea35-4cc7-bf5d-78df8665d98b.gif)
+
 ### Algumas informações
 
 As configurações do push notification pestão localizadas no arquivo:
