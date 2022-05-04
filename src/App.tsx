@@ -6,25 +6,22 @@ import { PushNotification } from './config/pushNotification';
 const App: React.FC = () => {
   const testPush = () => {
     PushNotification.localNotification({
-      /* Android Only Properties */
-      channelId: 'channel-id', // (required) channelId, if the channel doesn't exist, notification will not trigger.
+      channelId: 'channel-id',
       title: 'Notificação de teste',
-      message: 'A notificação local deu certo 😁', // (required)
+      message: 'A notificação local deu certo 😁',
     });
   };
 
   const testSheduledPush = () => {
     PushNotification.localNotificationSchedule({
-      /* Android Only Properties */
-      channelId: 'channel-id', // (required) channelId, if the channel doesn't exist, notification will not trigger.
+      channelId: 'channel-id',
       title: 'Notificação de teste',
-      message: 'A notificação local AGENDADA deu certo 😁', // (required)
+      message: 'A notificação local AGENDADA deu certo 😁',
 
-      date: new Date(Date.now() + 5 * 1000), // in 5 secs
-      allowWhileIdle: false, // (optional) set notification to work while on doze, default: false
+      date: new Date(Date.now() + 5 * 1000),
+      allowWhileIdle: false,
 
-      /* Android Only Properties */
-      repeatTime: 1, // (optional) Increment of configured repeatType. Check 'Repeating Notifications' section for more info.
+      repeatTime: 1,
     });
   };
 
