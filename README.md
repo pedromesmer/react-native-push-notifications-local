@@ -1,7 +1,7 @@
 # React Native Push Notification Local 
 
 Exemplos de uso do push notification pra quem NÂO quer usar a função com Firebase.
-O app foi configurado apenas para android (por emquanto).
+O app foi configurado apenas para android (por enquanto).
 
 ## 🚀 Começando
 
